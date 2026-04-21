@@ -1,3 +1,9 @@
+ Run wine-linux-ham-setup.desktop on Linux or wine-macos-ham-setup.command on macOS to          
+  automatically install Wine and all required dependencies for Winlink applications — these are  
+  the only files needed to run; the .txt files are provided for reference to show how the scripts
+  work, and while the LICENSE file does not need to be downloaded, its terms apply to all use,   
+  modification, and distribution of these scripts
+
 # Wine Ham Radio Setup Scripts
 **By TENZERO (KF0UDC)**
 
