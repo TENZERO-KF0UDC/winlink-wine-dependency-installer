@@ -37,3 +37,12 @@ own respective licenses.
 These scripts are intended to enable Windows-based Winlink applications to run
 on Linux and macOS via Wine. Supported applications include those available at
 downloads.winlink.org.
+
+The following software has not been tested and is not currently supported by
+these scripts:
+
+  - SCS USB Driver 2.08.24 WHQL Certified
+    (downloads.winlink.org - /Sysop Programs/SCS USB Driver 2.08.24 WHQL Certified/)
+
+Note: USB kernel drivers such as the above are not compatible with Wine and
+require a native Windows environment or a dedicated Windows virtual machine.

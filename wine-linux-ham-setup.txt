@@ -1,0 +1,33 @@
+#!/bin/bash
+set -e
+
+install_packages() {
+    if command -v pacman >/dev/null 2>&1; then
+        grep -q "^\[multilib\]" /etc/pacman.conf || printf "\n[multilib]\nInclude = /etc/pacman.d/mirrorlist\n" | sudo tee -a /etc/pacman.conf
+        sudo pacman -Sy --noconfirm wine wine-mono wine-gecko winetricks lib32-gnutls lib32-libpulse lib32-alsa-lib lib32-alsa-plugins lib32-mesa lib32-vulkan-icd-loader cabextract wget
+    elif command -v apt >/dev/null 2>&1; then
+        sudo dpkg --add-architecture i386
+        sudo apt update
+        sudo apt install -y wine winetricks cabextract wget libgnutls30:i386 libpulse0:i386 libasound2-plugins:i386
+    elif command -v dnf >/dev/null 2>&1; then
+        sudo dnf install -y wine winetricks cabextract wget
+    elif command -v zypper >/dev/null 2>&1; then
+        sudo zypper install -y wine winetricks cabextract wget
+    else
+        echo "Unsupported distro. Install Wine and Winetricks manually." && exit 1
+    fi
+}
+
+install_packages
+export WINEPREFIX="$HOME/.wine" WINEARCH=win64
+[ -f "$WINEPREFIX/system.reg" ] || wineboot --init
+winetricks -q win10
+winetricks -q dotnet48
+winetricks -q dotnetdesktop6 || true
+winetricks -q vcrun2019
+winetricks -q corefonts
+winetricks -q vb6run
+winetricks -q mdac28
+echo "Done. Press enter to close."; read
+
+# Copyright (C) MADE BY TENZERO KF0UDC
