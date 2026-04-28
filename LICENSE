@@ -1,48 +1,44 @@
-MIT License
+GNU Affero General Public License v3.0 (AGPL-3.0)
 
 Copyright (c) 2026 TENZERO (KF0UDC)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Definitions
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+"The Software" refers to the setup scripts authored by TENZERO (KF0UDC):
+wine-linux-ham-setup.desktop
+wine-linux-ham-setup.txt
+wine-macos-ham-setup.command
+wine-macos-ham-setup.txt
+"You" means the individual or entity obtaining a copy of the Software, and any derivative works based on it.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Permissions
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy of this Software and associated documentation files to deal in the Software without restriction, including, but not limited to, the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is provided to do so, subject to the following conditions.
 
-This license covers only the setup scripts authored by TENZERO (KF0UDC):
-  - wine-linux-ham-setup.desktop
-  - wine-linux-ham-setup.txt
-  - wine-macos-ham-setup.command
-  - wine-macos-ham-setup.txt
+3. Conditions
 
-This license does NOT cover Wine, Winetricks, .NET, or any third-party tools
-that these scripts download and install. Those projects are subject to their
-own respective licenses.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+If you modify the Software and distribute it, you must make the modified source code available under the same license. Additionally, if you use the Software in a networked environment, you must make the source code available to users interacting with it.
+The Software must not be used for proprietary purposes. If the Software is incorporated into other works, those works must also be made available under the terms of the AGPL-3.0 license.
 
----
+4. No Warranty
 
-These scripts are intended to enable Windows-based Winlink applications to run
-on Linux and macOS via Wine. Supported applications include those available at
-downloads.winlink.org.
+The Software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
 
-The following software has not been tested and is not currently supported by
-these scripts:
+5. Exclusions
 
-  - SCS USB Driver 2.08.24 WHQL Certified
-    (downloads.winlink.org - /Sysop Programs/SCS USB Driver 2.08.24 WHQL Certified/)
+This license applies only to the setup scripts authored by TENZERO (KF0UDC) listed above. It does not cover Wine, Winetricks, .NET, or any third-party tools that these scripts download and install. These projects are subject to their own respective licenses.
 
-Note: USB kernel drivers such as the above are not compatible with Wine and
-require a native Windows environment or a dedicated Windows virtual machine.
+6. Usage
+
+These scripts are intended to enable Windows-based Winlink applications to run on Linux and macOS via Wine. Supported applications include those available at downloads.winlink.org
+.
+
+7. Unsupported Software
+
+The following software has not been tested and is not currently supported by these scripts:
+
+SCS USB Driver 2.08.24 WHQL Certified
+(downloads.winlink.org - /Sysop Programs/SCS USB Driver 2.08.24 WHQL Certified/)
+
+Note: USB kernel drivers such as the above are not compatible with Wine and require a native Windows environment or a dedicated Windows virtual machine.
