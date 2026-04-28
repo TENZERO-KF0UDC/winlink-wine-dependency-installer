@@ -1,45 +1,116 @@
-GNU Affero General Public License v3.0 (AGPL-3.0)
+**TENZERO SOFTWARE LICENSE AGREEMENT (NO REDISTRIBUTION)**
+Version 1.0 — April 2026
 
 Copyright (c) 2026 TENZERO (KF0UDC)
+All rights reserved.
 
-1. Definitions
+---
 
-"The Software" refers to the setup scripts authored by TENZERO (KF0UDC):
-wine-linux-ham-setup.desktop
-wine-linux-ham-setup.txt
-wine-macos-ham-setup.command
-wine-macos-ham-setup.txt
-"You" means the individual or entity obtaining a copy of the Software, and any derivative works based on it.
+### 1. Definitions
 
-2. Permissions
+**“Software”** refers to the following setup scripts authored by TENZERO (KF0UDC):
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this Software and associated documentation files to deal in the Software under the following conditions and restrictions:
+* wine-linux-ham-setup.desktop
+* wine-linux-ham-setup.txt
+* wine-macos-ham-setup.command
+* wine-macos-ham-setup.txt
 
-3. Conditions and Restrictions
+---
 
-No Redistribution: You may not redistribute the Software, in whole or in part, under any circumstances. This includes, but is not limited to, selling, sublicensing, or distributing copies of the Software to third parties.
-Repository Privacy: The repository containing the Software may be privatized at any time by the author, TENZERO (KF0UDC). You acknowledge that the repository may be removed, modified, or made private without prior notice, and you agree not to rely on it being publicly accessible.
-Inclusion of Notices: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software, provided such copies are permitted to be made under this license.
-Modification and Source Availability: If you modify and distribute the Software (subject to the non-redistribution clause), you must make the source code available under the same license. If the Software is used in a networked environment, you must provide access to the source code to all users interacting with it.
+### 2. Grant of License
 
-4. No Warranty
+Permission is granted to you to download and use the Software for personal or internal use only, subject to the terms of this Agreement.
 
-The Software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+---
 
-5. Exclusions
+### 3. Restrictions
 
-This license applies only to the setup scripts authored by TENZERO (KF0UDC) listed above. It does not cover Wine, Winetricks, .NET, or any third-party tools that these scripts download and install. These projects are subject to their own respective licenses.
+You may NOT, under any circumstances:
 
-6. Usage
+* Redistribute the Software, in whole or in part, whether modified or unmodified
+* Share, publish, upload, or make the Software available to any third party
+* Sell, sublicense, or commercially exploit the Software
+* Include the Software in any public or private repository not controlled by TENZERO
 
-These scripts are intended to enable Windows-based Winlink applications to run on Linux and macOS via Wine. Supported applications include those available at downloads.winlink.org
-.
+---
 
-7. Unsupported Software
+### 4. Modification
 
-The following software has not been tested and is not currently supported by these scripts:
+You may modify the Software for your own personal or internal use only.
+You may NOT distribute modified versions of the Software under any circumstances.
 
-SCS USB Driver 2.08.24 WHQL Certified
-(downloads.winlink.org - /Sysop Programs/SCS USB Driver 2.08.24 WHQL Certified/)
+---
 
-Note: USB kernel drivers such as the above are not compatible with Wine and require a native Windows environment or a dedicated Windows virtual machine.
+### 5. Repository Availability
+
+The Software may be hosted in a public repository at the discretion of TENZERO (KF0UDC).
+TENZERO reserves the right to:
+
+* Make the repository private at any time
+* Remove or alter the Software without notice
+
+No guarantee is made regarding ongoing public availability.
+
+---
+
+### 6. Third-Party Software
+
+This license applies only to the Software listed above.
+
+It does NOT apply to third-party tools or dependencies, including but not limited to:
+
+* Wine
+* Winetricks
+* Microsoft .NET
+* Any software obtained from downloads.winlink.org
+
+All third-party software is subject to its own respective licenses.
+
+---
+
+### 7. Intended Use
+
+The Software is intended to assist in running Windows-based Winlink applications on Linux and macOS systems via Wine.
+
+Unsupported software includes, but is not limited to:
+
+* SCS USB Driver 2.08.24 WHQL Certified
+
+USB kernel drivers are not compatible with Wine and require a native Windows environment or virtual machine.
+
+---
+
+### 8. Termination
+
+This license is automatically terminated if you violate any of its terms.
+Upon termination, you must immediately cease use of the Software and delete all copies in your possession.
+
+---
+
+### 9. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+* MERCHANTABILITY
+* FITNESS FOR A PARTICULAR PURPOSE
+* NON-INFRINGEMENT
+
+---
+
+### 10. Limitation of Liability
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+### 11. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of the applicable jurisdiction of the copyright holder.
+
+---
+
+### 12. Entire Agreement
+
+This document constitutes the entire agreement regarding the Software and supersedes any prior agreements or understandings.
+
+---
