@@ -13,13 +13,14 @@ wine-macos-ham-setup.txt
 
 2. Permissions
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this Software and associated documentation files to deal in the Software without restriction, including, but not limited to, the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is provided to do so, subject to the following conditions.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this Software and associated documentation files to deal in the Software under the following conditions and restrictions:
 
-3. Conditions
+3. Conditions and Restrictions
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-If you modify the Software and distribute it, you must make the modified source code available under the same license. Additionally, if you use the Software in a networked environment, you must make the source code available to users interacting with it.
-The Software must not be used for proprietary purposes. If the Software is incorporated into other works, those works must also be made available under the terms of the AGPL-3.0 license.
+No Redistribution: You may not redistribute the Software, in whole or in part, under any circumstances. This includes, but is not limited to, selling, sublicensing, or distributing copies of the Software to third parties.
+Repository Privacy: The repository containing the Software may be privatized at any time by the author, TENZERO (KF0UDC). You acknowledge that the repository may be removed, modified, or made private without prior notice, and you agree not to rely on it being publicly accessible.
+Inclusion of Notices: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software, provided such copies are permitted to be made under this license.
+Modification and Source Availability: If you modify and distribute the Software (subject to the non-redistribution clause), you must make the source code available under the same license. If the Software is used in a networked environment, you must provide access to the source code to all users interacting with it.
 
 4. No Warranty
 
