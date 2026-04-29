@@ -1,1 +1,19 @@
-nothing here but watch out who distributes this software only you can protect yourself from malware 
+## ⚠️ Security Advisory: Unofficial Builds & Redistributed Copies
+
+Please be aware that this project may be redistributed, forked, or re-uploaded outside of this official GitHub repository. While open-source collaboration is encouraged, unofficial builds and redistributed versions can pose serious security risks.
+
+Malicious actors may modify the source code or compiled binaries to include malware, spyware, or information-stealing components. These altered versions can appear legitimate but may compromise your system and personal data.
+
+### 🔒 What You Should Do
+
+* Only download or clone the project from this **official repository**.
+* Be cautious when using forks, mirrors, or precompiled binaries from unknown sources.
+* Review code changes carefully before building or running modified versions.
+* Verify commits, tags, or releases when possible.
+* Avoid downloading executables shared through third-party sites or direct messages.
+
+We cannot guarantee the safety, integrity, or authenticity of versions distributed outside this repository.
+
+If you encounter suspicious versions of this software, please report them through GitHub Issues.
+
+Stay cautious and prioritize your security.
